@@ -1,13 +1,10 @@
 {
-  "homepage": "http://abhitiwari2023.github.io/company-website",
   "name": "bigspring-light-nextjs",
   "description": "a nextjs and tailwindcss SAAS starter template",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "export": "next build && next export",
