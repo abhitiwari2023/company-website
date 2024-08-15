@@ -487,12 +487,28 @@
                 color: #4a5568;
                 font-weight: 600;
                 transition: all 0.3s ease;
+                display: inline-block;
+                margin: 0.25rem;
             }
 
             .category-chip:hover,
             .category-chip.active {
                 background-color: #4299e1;
                 color: white;
+            }
+
+            @media (max-width: 768px) {
+                .category-chip {
+                    padding: 0.4rem 0.8rem;
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .category-chip {
+                    padding: 0.3rem 0.6rem;
+                    font-size: 0.8rem;
+                }
             }
         </style>
         <!-- team section -->
